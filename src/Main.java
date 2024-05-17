@@ -54,15 +54,15 @@ public class Main {
         }
 
 
-        int babyEars = 15;
+        int babyEars = 14;
         System.out.println(babyEars);
         if (babyEars < 5) {
             System.out.println("Если возраст ребенка равен " + babyEars + " , то ему нельзя кататься на аттракционе.");
         } else {
-            if (babyEars >= 5 && babyEars <= 14) {
+            if (babyEars >= 5 && babyEars < 14) {
                 System.out.println("Если возраст ребенка равен " + babyEars + " , то ему можно кататься на аттракционе в сопровождении");
             } else {
-                if (babyEars > 14) {
+                if (babyEars >= 14) {
                     System.out.println("Если возраст ребенка равен " + babyEars + " , то ему можно кататься на атракционе без сопровождения взрослого");
                 }
             }
